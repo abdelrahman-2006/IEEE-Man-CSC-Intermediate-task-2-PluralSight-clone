@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In PluralSight</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <title>Sign In PluralSprite</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <section id = "left-section">
 
         <header id="logo-lookup">
-            <img src = "" alt = "logo" id = "logo-img">
-            <h2 id = "company-name">PLURALSIGHT</h2>
+            <img src = "images/Logo.png" alt = "logo" id = "logo-img">
+            <h2 id = "company-name">PLURALSPRITE</h2>
         </header>
 
         <main>
             <div class="top-container">
                 <form>
-                    <label for="username-or-email">Username or Email</label>
-                    <input type = "text" id = "username-or-email" required>
-
-                    <label for="password">Password</label>
-                    <input type = "password" id="password" minlength="8" required>
+                    <div class="form-container">
+                        <label for="username-or-email">Username or Email</label>
+                        <input type = "text" id = "username-or-email">
+                    </div>
+                    <div class="form-container">
+                        <label for="password">Password</label>
+                        <input type = "password" id="password" minlength="8">
+                    </div>
 
                     <input type = "submit" value="Sign In">
                 </form>
-                <ul>
-                    <li>Forgot Password</li>
-                    <li>Sign in with company or school</li>
+                <ul id="sign-in-links">
+                    <li>
+                        <a href="#">Forgot Password</a>
+                    </li>
+                    <li>
+                        <a href="#">Sign in with company or school</a>
+                    </li>
                 </ul>
             </div>
             <div class="bottom-container">
@@ -42,16 +51,22 @@
         <footer>
             <p>Copyright &copy; 2026 Abdelrahman-2006 All Rights are reserved</p>
             <ul>
-                <li>Terms of use</li>
-                <li>Privacy Policy</li>
+                    <a href="#">Terms of Use</a>
+                </li>
+                <div id="divide"></div>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
             </ul>
         </footer>
         
     </section>
     <section id = "right-section">
-        <div class="right-container">
-            <h2 id="quote">Let's create the future together</h2>
-            <button id="free-trial">Start a FREE 10-day-trial</button>
+        <div class="layer">
+            <div class="right-container">
+                <h2 id="quote">Let's create the future together</h2>
+                <button id="free-trial">Start a FREE 10-day-trial</button>
+            </div>
         </div>
     </section>
 </body>

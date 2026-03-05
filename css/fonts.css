@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-ExtraLight.woff2') format('woff2'),
+       url('../Fonts/Cairo-ExtraLight.woff') format('woff');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-Light.woff2') format('woff2'),
+       url('../Fonts/Cairo-Light.woff') format('woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-Regular.woff2') format('woff2'),
+       url('../Fonts/Cairo-Regular.woff') format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-Medium.woff2') format('woff2'),
+       url('../Fonts/Cairo-Medium.woff') format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-SemiBold.woff2') format('woff2'),
+       url('../Fonts/Cairo-SemiBold.woff') format('woff');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-Bold.woff2') format('woff2'),
+       url('../Fonts/Cairo-Bold.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-ExtraBold.woff2') format('woff2'),
+       url('../Fonts/Cairo-ExtraBold.woff') format('woff');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('../Fonts/Cairo-Black.woff2') format('woff2'),
+       url('../Fonts/Cairo-Black.woff') format('woff');
+  font-weight: 900;
+}
+body {
+    font-family: 'Cairo';
+}
