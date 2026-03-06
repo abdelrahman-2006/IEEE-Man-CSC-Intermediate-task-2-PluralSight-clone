@@ -378,3 +378,11 @@ p a {
     font-size: var(--fs-200);
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 279px) {
+  body {
+    overflow-x: auto;
+  }
+}
+>>>>>>> refs/remotes/origin/main
