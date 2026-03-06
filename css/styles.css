@@ -377,3 +377,9 @@ p a {
     color: var(--clr-white);
     font-size: var(--fs-200);
 }
+
+@media (max-width: 279px) {
+    body {
+        overflow-x: none;
+    }
+}
